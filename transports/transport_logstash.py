@@ -25,4 +25,3 @@ class MonyLogstash(MonyTransport):
         self.createConnexion()
         self.sock.send(json.dumps(msg))
         self.sock.close()
-        sys.exit(0)

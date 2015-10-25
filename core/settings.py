@@ -7,9 +7,9 @@ ACTIVATED_PLUGINS = (
     'disk',
     'memory',
     'host',
-    #'celery',
+    'celery',
 )
 
 TRANSPORT = 'logstash'
-HOST = 'IP_SERVER'
-PORT = 'PORT_SERVER'
+HOST = 'SERVER_IP'
+PORT = 'PORT'

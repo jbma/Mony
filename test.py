@@ -1,5 +1,9 @@
+import time
+
 from core.mony import Mony
 
 m = Mony()
 
-m.sendData()
+while True:
+    m.sendData()
+    time.sleep(30)
