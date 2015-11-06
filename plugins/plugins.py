@@ -7,7 +7,7 @@ Base Class for all plugins
 class MonyPlugin():
 
     def __init__(self):
-        self.plugin_name = self.__class__.__module__
+        self.plugin_name = self.__class__.__module__.replace('plugins.', '')
 
     def getPluginName(self):
         return self.plugin_name
